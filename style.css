@@ -3,12 +3,12 @@
     border-radius: 0;
     font-family: Monocraft;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 9px;
     min-height: 3px;
 }
 
 window#waybar {
-    background: rgba(21, 18, 27, 0);
+    background: rgba(0, 0, 0, 0);
     color: #ffffff;
 }
 
@@ -24,18 +24,18 @@ window#waybar {
 
 #workspaces button.focused {
     color: #ffffff;
-    background: #000000;
+    background: 0;
     border-radius: 5px;
 }
 
 #workspaces button.urgent {
     color: #11111b;
-    background: #000000;
+    background: 0;
     border-radius: 5px;
 }
 
 #workspaces button:hover {
-    background: #ffffff;
+    background: 0;
     color: #000000; 
     border-radius: 5px;
 }
@@ -50,7 +50,7 @@ window#waybar {
 #workspaces,
 #tray,
 #backlight {
-    background: #000000;
+    background: 0;
     padding: 0px 5px;
     margin: 0px 0px;
 }
@@ -65,7 +65,7 @@ window#waybar {
 }
 
 #workspaces {
-    background: #000000;
+    background: 0;
     border-radius: 0px;
     margin-left: 5px;
     padding-right: 0px;
@@ -80,7 +80,6 @@ window#waybar {
 
 #clock {
     color: #ffffff;
-    border-radius: 0px 0px 0px 0px;
     margin-left: 5px;
     border-right: 0px;
     font-family: Monocraft;

@@ -97,13 +97,13 @@
         }
     },
 
-    "pulseaudio#microphone": {
+    "pipewire#microphone": {
         "format": "၊၊||၊ {format_source}",
         "format-source": "{volume}%",
         "format-source-muted": " Muted",
-        "on-click": "pamixer --default-source -t",
-        "on-scroll-up": "pamixer --default-source -i 5",
-        "on-scroll-down": "pamixer --default-source -d 5",
+        "on-click": "pactl set-source-mute @DEFAULT_AUDIO_SOURCE@ toggle",
+        "on-scroll-up": "pactl set-source-volume @DEFAULT_AUDIO_SOURCE@ 5%+",
+        "on-scroll-down": "pactl set-source-volume @DEFAULT_AUDIO_SOURCE@ 5%-",
         "scroll-step": 5
     },
 
