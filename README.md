@@ -3,9 +3,7 @@ All of my Hyprland Minecraft theme!
 
 ![hyprcraft_demo](https://github.com/mlaurasarmentov/HYPRCRAFT/blob/f16cd2fa837955b9c13079c23d038bb284e07849/hyprcraftdemo.png)
 
-
 * * * 
-
 
 ![hyprcraft_waybar](https://github.com/mlaurasarmentov/HYPRCRAFT/blob/a9cc6035031b0c43f28b18ee5b87914c04893042/images/hyprcraftwaybar.png) 
 
